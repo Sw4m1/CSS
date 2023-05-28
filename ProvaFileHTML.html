@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="it">
+    <head>
+        <title> Scheda di registrazione </title>
+        <meta charset="utf-8">
+    </head>
+    <body bgcolor=#6397D0>
+        <form method="get" action="" target="_blank">
+            NOME: <br><input type="text" name="nome" placeholder="inserisci nome..." /><br>
+            COGNOME: <br><input type="text" name="cognome" placeholder="inserisci cognome..." /><br>
+            SESSO:<br>
+            M:<input type="radio" name="M" value="maschio" /> &nbsp;&nbsp;
+            F:<input type="radio" name="F" value="femmina" /> &nbsp;&nbsp;
+            Altro:<input type="radio" name="Altro" value="altro" /> &nbsp;&nbsp;
+            Preferisco non specificare:<input type="radio" name="Preferisco non specificare" value="Preferisco non specificare" /> &nbsp;&nbsp;<br><br>
+            E-MAIL: <br><input type="email" name="email" size="40" maxlength="30" placeholder="inserisci email..."/> <br>
+            PASSWORD: <br><input type="password" name="password" size="40" maxlength="10" placeholder="inserisci password..."/><br><br>
+            CONTINENTE DI PROVENIENZA: <br><select name="Continente">
+                <option value="europa"> Europa </option>
+                <option value="asia"> Asia </option>
+                <option value="africa"> Africa </option>
+                <option value="america"> America </option>
+                <option value="oceania"> Oceania </option>
+                <option value="antartide"> Antartide </option>
+            </select><br>
+            TIPO DI RICHIESTA: <br><select name="richiesta">
+                                    <option value="account"> Gestione account istituzionale </option>
+                                    <option value="segreteria"> Segreteria studenti </option>
+                                    <option value="ricevimento"> Ricevimento docenti </option>
+                                    <option value="pergamena"> Ritiro pergamena </option>
+                                    <option value="altro"> Altro </option>
+                                </select><br><br>
+            RICHIESTA: <br><textarea name="richiesta" rows="10" cols="40" >Inserisci qui la tua richiesta... </textarea><br>
+            <input type="submit" name="INVIO" />&nbsp;&nbsp;
+            <input type="reset" name="RESET" />
+        </form>
+    </body>
+</html>
